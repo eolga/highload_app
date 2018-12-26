@@ -1,0 +1,3 @@
+docker build -t java-app-lab2 .
+
+docker run -p 8080:8383 java-app-lab2

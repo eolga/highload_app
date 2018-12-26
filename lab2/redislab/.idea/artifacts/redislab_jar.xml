@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="redislab:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/redislab_jar</output-path>
+    <root id="archive" name="redislab.jar">
+      <element id="module-output" name="redislab" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/ru/labred/resourse/jedis-2.8.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,6 @@
+docker build -t java-app .
+
+docker run -p 8080:8383 java-app
+
+//Узнать на каком ip крутится наш контейнер
+docker inspect --format '{{ .NetworkSettings.IPAddress }}' 3d9f34c70f32
